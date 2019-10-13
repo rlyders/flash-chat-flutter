@@ -1,4 +1,5 @@
 import 'package:flash_chat/screens/login_screen.dart';
+import 'package:flash_chat/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'router.dart';
 
@@ -14,7 +15,7 @@ class FlashChat extends StatelessWidget {
         ),
       ),
       onGenerateRoute: Router.generateRoute,
-      initialRoute: LoginScreen.id,
+      initialRoute: WelcomeScreen.id,
     );
   }
 }
