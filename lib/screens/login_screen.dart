@@ -64,8 +64,6 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
             RoundedButton(
               onPressed: () async {
-//                print(email);
-//                print(password);
                 try {
                   final loggedInUser = await _auth.signInWithEmailAndPassword(
                       email: email, password: password);
